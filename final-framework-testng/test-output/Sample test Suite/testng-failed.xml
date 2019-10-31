@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Sample test Suite]">
-  <test name="Sample test(failed)">
+  <test thread-count="5" name="Sample test(failed)">
     <classes>
-      <class name="com.training.regression.tests.LoginDBTest">
+      <class name="com.training.sanity.tests.ElearningMycouseDisciption_ELTC_014">
         <methods>
-          <include name="tearDown"/>
-          <include name="loginDBTest"/>
-          <include name="setUp"/>
           <include name="setUpBeforeClass"/>
+          <include name="validLoginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.training.regression.tests.LoginDBTest -->
+      </class> <!-- com.training.sanity.tests.ElearningMycouseDisciption_ELTC_014 -->
+      <class name="com.training.sanity.tests.ElearingCatlog_Subscribe_ELTC_013">
+        <methods>
+          <include name="setUpBeforeClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validLoginTest"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.ElearingCatlog_Subscribe_ELTC_013 -->
+      <class name="com.training.sanity.tests.Elearning_Forum_ELTC_044">
+        <methods>
+          <include name="setUpBeforeClass"/>
+          <include name="setUp"/>
+          <include name="validLoginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.Elearning_Forum_ELTC_044 -->
     </classes>
   </test> <!-- Sample test(failed) -->
 </suite> <!-- Failed suite [Sample test Suite] -->

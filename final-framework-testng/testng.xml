@@ -7,6 +7,10 @@
           <class name = "com.training.sanity.tests.ElearingCatlog_Subscribe_ELTC_013" />
           <class name = "com.training.sanity.tests.ElearningMycouseDisciption_ELTC_014" />
           <class name = "com.training.sanity.tests.ElearningLogOut_ELTC_15" />
+           <class name = "com.training.sanity.tests.Elearning_UploadFile_ELTC_043" />
+          <class name = "com.training.sanity.tests.Elearning_Forum_ELTC_044" />
+          <class name = "com.training.sanity.tests.Elearning_ChatinGroup_ELTC_045" />
+          
       </classes>
    </test>
 </suite>	

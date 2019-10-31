@@ -53,7 +53,7 @@ public class ElearingCatlog_Subscribe_ELTC_013 {
 		loginPOM.clickLoginBtn();
 		loginPOM.ClickMyCourse();
 		loginPOM.clickcoursecatlog();
-		loginPOM.sendSaerchText("8989uiui");
+		loginPOM.sendSaerchText("cour8022");
 		loginPOM.clicksearch();
 		loginPOM.clicksubscribe();
 		//screenShot.captureScreenShot("First");
